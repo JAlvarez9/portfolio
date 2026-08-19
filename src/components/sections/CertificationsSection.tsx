@@ -1,5 +1,5 @@
 import React from 'react';
-import { Award, Hourglass, Sparkles } from 'lucide-react';
+import { Hourglass, Sparkles } from 'lucide-react';
 
 export const CertificationsSection: React.FC = () => {
   return (
@@ -11,33 +11,24 @@ export const CertificationsSection: React.FC = () => {
           <span className="text-primary">db.certifications</span>
         </h2>
         <span className="text-xs font-code text-gray-500 bg-white/[0.03] px-2.5 py-1 rounded border border-white/5">
-          UPCOMING VAULT
+          UPCOMING
         </span>
       </div>
 
-      {/* Generic Upcoming State Container */}
-      <div className="bg-db-card border border-dashed border-primary/30 hover:border-primary/60 rounded-2xl p-8 lg:p-12 backdrop-blur-md flex flex-col items-center justify-center text-center space-y-4 transition-all hover:bg-primary/[0.02] shadow-lg">
-        <div className="w-16 h-16 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center text-primary shadow-[0_0_20px_rgba(56,189,248,0.2)]">
-          <Award className="w-8 h-8" />
+      {/* Single Clean Minimalist Container */}
+      <div className="bg-db-card border border-dashed border-primary/30 rounded-xl p-8 lg:p-12 backdrop-blur-md flex flex-col items-center justify-center text-center space-y-3 shadow-md">
+        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent-amber/10 border border-accent-amber/30 text-accent-amber font-code text-sm font-semibold shadow-[0_0_15px_rgba(245,158,11,0.15)]">
+          <Hourglass className="w-4 h-4 animate-spin" />
+          <span>Próximamente</span>
         </div>
 
-        <div className="space-y-2 max-w-md">
-          <h3 className="text-lg font-bold text-gray-100 font-code">
-            Certificaciones & Acreditaciones Profesionales
-          </h3>
-          <p className="text-sm text-gray-400 font-ui leading-relaxed">
-            Esta sección se encuentra en preparación y estará disponible próximamente con los certificados y logros técnicos en curso.
-          </p>
-        </div>
+        <p className="text-xs lg:text-sm text-gray-400 font-ui max-w-sm pt-1">
+          Módulo en desarrollo. Las certificaciones y acreditaciones estarán disponibles aquí muy pronto.
+        </p>
 
-        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent-amber/10 border border-accent-amber/30 text-accent-amber text-xs font-code font-semibold">
-          <Hourglass className="w-3.5 h-3.5 animate-spin" />
-          <span>Próximamente / In Progress</span>
-        </div>
-
-        <div className="pt-2 text-[11px] font-code text-gray-500 flex items-center gap-1.5">
-          <Sparkles className="w-3.5 h-3.5 text-primary" />
-          <span>STATUS: PENDING_INGESTION</span>
+        <div className="pt-2 text-[10px] font-code text-gray-600 flex items-center gap-1">
+          <Sparkles className="w-3 h-3 text-primary/60" />
+          <span>STATUS: IN_PROGRESS</span>
         </div>
       </div>
     </section>
