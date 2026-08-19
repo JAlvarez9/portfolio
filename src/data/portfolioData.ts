@@ -7,7 +7,7 @@ export const PROFILE_INFO = {
   university: 'Universidad de San Carlos de Guatemala (USAC)',
   degree: 'Ingeniería en Ciencias y Sistemas',
   status: 'OPEN_FOR_OPPORTUNITIES',
-  email: 'feralvarezmorales9@gmail.com',
+  email: 'j.f.alvarezmorales@gmail.com',
   github: 'https://github.com/JAlvarez9',
   linkedin: 'https://www.linkedin.com/in/jose-fernando-alvarez-morales-67b75a248/',
   bioShort: 'Ingeniero en Ciencias y Sistemas enfocado en construir software escalable, arquitecturas limpias y APIs de alta disponibilidad con .NET y TypeScript.',
@@ -160,7 +160,7 @@ export const CONTACT_METHODS: ContactMethod[] = [
   {
     id: 'email',
     label: 'Email Principal',
-    value: 'feralvarezmorales9@gmail.com',
+    value: 'j.f.alvarezmorales@gmail.com',
     icon: 'Mail',
     actionType: 'copy'
   },

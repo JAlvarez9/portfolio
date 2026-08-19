@@ -100,6 +100,6 @@ PortafolioPersonal/
 ## 📬 Contacto & Conexión
 
 - **Ingeniero:** Jose Fernando Alvarez Morales
-- **Email:** [feralvarezmorales9@gmail.com](mailto:feralvarezmorales9@gmail.com)
+- **Email:** [j.f.alvarezmorales@gmail.com](mailto:j.f.alvarezmorales@gmail.com)
 - **LinkedIn:** [linkedin.com/in/jose-fernando-alvarez-morales](https://www.linkedin.com/in/jose-fernando-alvarez-morales-67b75a248/)
 - **GitHub:** [@JAlvarez9](https://github.com/JAlvarez9)
